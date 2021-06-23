@@ -9,7 +9,7 @@ import cv2
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Read the image
-image = cv2.imread('chicos.jpeg')
+image = cv2.imread('gente.png')
 # Convierte la imagen a Blanco y Negro
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Detect faces in the image
